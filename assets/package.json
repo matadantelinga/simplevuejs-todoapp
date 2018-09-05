@@ -1,0 +1,29 @@
+{
+  "name": "matadantelinga-project",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "description": "new version",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bootstrap": "^0.1.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "owl.carousel": "^2.3.4",
+    "virtual-scroll": "^1.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

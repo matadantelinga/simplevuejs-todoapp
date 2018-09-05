@@ -1,0 +1,41 @@
+{"quizlist":[
+  
+	{
+	"question":"Toni mengambil uang kas untuk keperluannya membayar hutang.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	},
+	{
+	"question":"Budi sering menitipkan password akses sistemnya kepada rekan kerja agar dapat melayani transaksi Nasabah dengan jumlah yang besar.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	},
+	{
+	"question":"Ani menyimpan kelebihan dari uang kas untuk berjaga-jaga jika suatu saat terjadi salah perhitungan.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	},
+	{
+	"question":"Beny meminta bawahannya untuk meminjamkan sejumlah uang kas dan berjanji mengembalikannya setelah gajian.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	},
+	{
+	"question":"Andi memanipulasi target penjualan karena target kerjanya tidak tercapai.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	},
+	{
+	"question":"Anton melakukan pemalsuan kuitansi karena lokasi KLN yang jauh dari Kantor Cabang Utama.",
+	"option1":"Opportunity",
+	"option2":"Motivation",
+	"option3":"Realization"
+	}
+
+]
+}

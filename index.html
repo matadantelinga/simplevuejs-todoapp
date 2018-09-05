@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="icon.png">
+        <title>Digima Test Quiz | Suteja Indrayana</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+        <!--main css section-->
+        <link rel="stylesheet" href="assets/responsive.css">
+        <link rel="stylesheet" href="assets/styles.css">
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        
+   
+</head>
+    <body>
+        <div class="container">
+                <div id="quiz">
+                    <div id="startScreen" class="startScreenContainer">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-md-push-6 col-sm-push-6">
+                                <div id="startCaption">
+                                    <p>Mari kita uji pemahaman kamu</p>
+                                </div>
+                                <div class="text-center"><a href="#" class="quiz-start-btn button btn hidden-on-small">Next</a></div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-md-pull-6 col-sm-pull-6">
+                                <div id="startBg">
+                                    <img src="assets/images/bgwoman.png" />
+                                </div>
+                                 <div class="text-center"><a href="#" class="quiz-start-btn button btn hidden-on-large">Next</a></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="quizContent" class="quizContainer" style="display:none;">
+                        <div class="row">
+                            <div id="image-bg-side" class="col-md-6 col-sm-6 content-column no-padding">
+                            </div>
+                            <div id="question-side" class="col-md-6 col-sm-6 bg-white content-column no-padding">
+                                <div class="question-header"><h1>Pilihlah kategori Triangle of Fraud yang sesuai dengan kasus ini.</h1></div>
+                               <div class="question-container">
+                                    <p id="question"></p>
+
+                                    <div class="buttons">
+                                        <button id="btn0" class="option"><i class="choice">A.</i> <span id="choice0"></span></button>
+                                        <button id="btn1" class="option"><i class="choice">B.</i> <span id="choice1"></span></button>
+                                        <button id="btn2" class="option"><i class="choice">C.</i> <span id="choice2"></span></button>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="finishScreen" class="quizContainer" style="display: none;">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <img src="assets/images/tropy.png" width="100%" /> 
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div id="success-content"></div>
+                                <div class="text-center"><a href="#" class="quiz-start-btn button finishNextBtn btn">Next</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="restartScreen" class="quizContainer" style="display: none;">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 text-center">
+                                <img src="assets/images/lost.png" width="100%" /> 
+                            </div>
+                            <div id="failed-result" class="col-md-6 col-sm-6">
+                                <div id="result-content"></div>
+                                 <div class="text-center"><a href="#" class="quiz-start-btn button btn restartBtn">Try Again</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="quitScreen" style="display: none;">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-md-push-6 col-sm-push-6">
+                                <div id="contentCaption">
+                                    <h2>Selamat!</h2>
+                                    <p>Kamu berhasil lulus dari modul ini. Dengan mengetahui faktor-faktor pendorong tindakan Fraud, kamu selangkah lebih maju untuk dapat mencegah terjadinya fraud.</p>
+                                </div>
+                                <div class="text-center"><a href="#" class="quiz-start-btn quitBtn button btn hidden-on-small">Quit</a></div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-md-pull-6 col-sm-pull-6">
+                                <div id="startBg">
+                                    <img src="assets/images/bgwoman.png" />
+                                </div>
+                                <div class="text-center"><a href="#" class="quiz-start-btn quitBtn button btn hidden-on-large">Quit</a></div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
