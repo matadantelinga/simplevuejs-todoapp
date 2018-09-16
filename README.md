@@ -1,3 +1,13 @@
-# simplequiz
+# todo-vuex
 
-This is a simple quiz app that made from HTML5 and Jquery, please let me know what should i do to develop this quiz to be more interesting.
+> A Getting started guide of how to use Vuex state management with Vue js.
+
+## Getting started
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```

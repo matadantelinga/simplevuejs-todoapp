@@ -1,0 +1,52 @@
+$primary-color : #2096ba;
+$text-color: #333;
+@import "~bootstrap/scss/bootstrap";
+
+h1,h2,h3,h4,h5 {
+	font-size: 18px !important;
+	text-transform: uppercase;
+}
+
+.vertical-padding {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.small-vertical-padding {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+p {
+	font-size: 14px;
+	font-family: "roboto", sans-serif;
+}
+
+input {
+	width:100%;	
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+
+table {
+	th.header {
+		background-color: $primary-color;
+		color: #ffffff;
+	}
+}
+
+.container-header {
+	padding: 3em;
+}
+
+.btn-group {
+	float: right;
+}
