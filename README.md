@@ -1,7 +1,9 @@
 # To Do List App VueJS
 
-# Npm Run Start
-//Start The Project in Localhost:8080
+###### Npm Run Start
+> Start The Project in Localhost:8080
 
-# Npm Run Build
-//Build The Production Mode
+###### Npm Run Build
+> Build The Production Mode
+
+###### code by Suteja Indrayana | www.matadantelinga.com

@@ -4,7 +4,7 @@
             <div class="col-md-12">
             <h2>What To Do</h2>
                 <div class="input-group mb-3">
-                  <input class="form-control" aria-label="Task" aria-describedby="basic-addon2" :value="newTodo" @change="getTodo" placeholder="Task. . ."">
+                  <input class="form-control" aria-label="Task" aria-describedby="basic-addon2" :value="newTodo" @change="getTodo" placeholder="Task. . .">
                   <div class="input-group-append">
                     <button class="btn btn-info" @click="addTodo">Add Todo</button>
                   </div>
