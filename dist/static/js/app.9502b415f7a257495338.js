@@ -37,9 +37,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
             var todos = state.todos;
             todos.splice(todos.indexOf(todo), 1);
         },
-        COMPLETE_TODO(state, todo) {
-            todo.completed = !todo.completed;
-        },
         CLEAR_TODO(state) {
             state.newTodo = '';
         }
@@ -57,9 +54,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
         removeTodo({ commit }, todo) {
             commit('REMOVE_TODO', todo);
         },
-        completeTodo({ commit }, todo) {
-            commit('COMPLETE_TODO', todo);
-        },
         clearTodo({ commit }) {
             commit('CLEAR_TODO');
         }
@@ -69,9 +63,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
         newTodo: state => state.newTodo,
         todos: state => state.todos.filter(todo => {
             return !todo.completed;
-        }),
-        completedTodos: state => state.todos.filter(todo => {
-            return todo.completed;
         })
     }
 
@@ -426,4 +417,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[8]);
-//# sourceMappingURL=app.3fa2c7e38fc447364238.js.map
+//# sourceMappingURL=app.9502b415f7a257495338.js.map

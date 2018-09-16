@@ -29,9 +29,6 @@ export default new Vuex.Store({
             todos.splice(todos.indexOf(todo), 1)
             
         },
-        COMPLETE_TODO(state, todo){
-            todo.completed = !todo.completed
-        },
         CLEAR_TODO(state){
             state.newTodo = ''
         }
@@ -49,9 +46,6 @@ export default new Vuex.Store({
         removeTodo({commit}, todo){
             commit('REMOVE_TODO', todo)
         },
-        completeTodo({commit}, todo){
-            commit('COMPLETE_TODO', todo)
-        },
         clearTodo({commit}){
             commit('CLEAR_TODO')
         }
@@ -60,7 +54,6 @@ export default new Vuex.Store({
     getters: {
         newTodo: state => state.newTodo,
         todos: state => state.todos.filter((todo) => {return !todo.completed}),
-        completedTodos: state => state.todos.filter((todo) => {return todo.completed})
     }
 
 })
