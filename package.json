@@ -1,8 +1,8 @@
 {
-  "name": "todo-vuex",
+  "name": "todolistapp",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "samuel ogundipe <ayoogundipe2005@gmail.com>",
+  "description": "todolistapp",
+  "author": "Suteja Indrayana",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
